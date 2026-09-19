@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="Sports",Example Sports
+https://example.com/stream.m3u8
+#EXTINF:-1 group-title="News",Example News
+https://example.com/news.m3u8
