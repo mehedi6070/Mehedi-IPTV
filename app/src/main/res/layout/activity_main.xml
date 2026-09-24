@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/black">
+
+ <androidx.media3.ui.PlayerView android:id="@+id/playerView" android:layout_width="match_parent" android:layout_height="match_parent" android:visibility="gone" android:background="@color/black" app:use_controller="false" app:resize_mode="fit"/>
+
+ <LinearLayout android:id="@+id/homeView" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="14dp" android:background="@color/black">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="58dp" android:gravity="center_vertical" android:orientation="horizontal">
+   <TextView android:layout_width="42dp" android:layout_height="match_parent" android:gravity="center" android:text="📺" android:textSize="28sp" android:textColor="@color/red"/>
+   <TextView android:id="@+id/logoText" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_vertical" android:text="Mehedi IPTV" android:textColor="@color/white" android:textSize="27sp" android:textStyle="bold"/>
+   <TextView android:layout_width="48dp" android:layout_height="match_parent" android:gravity="center" android:text="⋮" android:textColor="@color/white" android:textSize="30sp"/>
+  </LinearLayout>
+
+  <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+   <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:orientation="vertical" android:background="@drawable/panel" android:padding="8dp">
+    <TextView android:id="@+id/ourChannels" android:layout_width="match_parent" android:layout_height="36dp" android:gravity="center_vertical" android:text="‹   Total Channels : 0" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/channelRecycler" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false"/>
+   </LinearLayout>
+   <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.25" android:layout_marginStart="10dp" android:background="@drawable/panel">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical">
+     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📺" android:textColor="@color/red" android:textSize="54sp"/>
+     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mehedi IPTV" android:textColor="@color/white" android:textSize="32sp" android:textStyle="bold"/>
+     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Live TV  •  Anytime  •  Anywhere" android:textColor="@color/white" android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp" android:layout_gravity="bottom" android:gravity="center" android:background="@drawable/option">
+     <TextView android:id="@+id/onlineText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="● Online Now: 0" android:textColor="@color/green" android:textSize="11sp"/>
+     <TextView android:id="@+id/totalText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="22dp" android:text="♟ Total Visitors: 0" android:textColor="@color/white" android:textSize="11sp"/>
+    </LinearLayout>
+   </FrameLayout>
+  </LinearLayout>
+
+  <TextView android:id="@+id/homeTicker" android:layout_width="match_parent" android:layout_height="38dp" android:gravity="center_vertical" android:singleLine="true" android:ellipsize="marquee" android:marqueeRepeatLimit="-1" android:focusable="true" android:scrollHorizontally="true" android:text="@string/ticker" android:textColor="@color/white" android:textSize="13sp" android:paddingStart="12dp" android:background="@color/panelSolid"/>
+ </LinearLayout>
+
+ <TextView android:id="@+id/speedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="28dp" android:text="0.00 Mbps" android:textColor="@color/white" android:textSize="12sp" android:visibility="gone"/>
+ <TextView android:id="@+id/playerTicker" android:layout_width="match_parent" android:layout_height="38dp" android:layout_gravity="bottom" android:gravity="center_vertical" android:singleLine="true" android:ellipsize="marquee" android:marqueeRepeatLimit="-1" android:focusable="true" android:scrollHorizontally="true" android:text="@string/ticker" android:textColor="@color/white" android:textSize="13sp" android:paddingStart="12dp" android:background="@color/panelSolid" android:visibility="gone"/>
+
+ <FrameLayout android:id="@+id/leftPanel" android:layout_width="330dp" android:layout_height="match_parent" android:layout_gravity="start" android:layout_margin="12dp" android:padding="10dp" android:background="@drawable/panel" android:visibility="gone">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+   <TextView android:id="@+id/leftTitle" android:layout_width="match_parent" android:layout_height="40dp" android:gravity="center_vertical" android:text="‹   Total Channels: 0" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold"/>
+   <androidx.recyclerview.widget.RecyclerView android:id="@+id/playerChannelRecycler" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+  </LinearLayout>
+ </FrameLayout>
+
+ <LinearLayout android:id="@+id/rightPanel" android:layout_width="320dp" android:layout_height="wrap_content" android:layout_gravity="end|center_vertical" android:layout_margin="16dp" android:orientation="vertical" android:padding="10dp" android:background="@drawable/panel" android:visibility="gone">
+  <TextView android:layout_width="match_parent" android:layout_height="42dp" android:gravity="center_vertical" android:paddingStart="14dp" android:text="←   Swipe Right" android:textColor="@color/white" android:textSize="15sp"/>
+  <TextView android:id="@+id/videoFormat" android:layout_width="match_parent" android:layout_height="50dp" android:gravity="center_vertical" android:paddingStart="14dp" android:text="🎞  Video / Format" android:textColor="@color/white" android:textSize="15sp" android:background="@drawable/option"/>
+  <TextView android:id="@+id/subAudio" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:gravity="center_vertical" android:paddingStart="14dp" android:text="🔊  Subtitle / Audio" android:textColor="@color/white" android:textSize="15sp" android:background="@drawable/option"/>
+  <TextView android:id="@+id/favoriteOption" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:gravity="center_vertical" android:paddingStart="14dp" android:text="★  Add to Favorites" android:textColor="@color/white" android:textSize="15sp" android:background="@drawable/option"/>
+  <TextView android:id="@+id/playbackOption" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:gravity="center_vertical" android:paddingStart="14dp" android:text="▶  Playback Controls" android:textColor="@color/white" android:textSize="15sp" android:background="@drawable/option"/>
+ </LinearLayout>
+</FrameLayout>
