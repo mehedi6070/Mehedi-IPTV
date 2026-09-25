@@ -1,6 +1,0 @@
-Mehedi IPTV playlist source
-
-https://raw.githubusercontent.com/mehedi6070/Mehedi-IPTV/refs/heads/main/channels.m3u
-
-The Android app reads this Raw GitHub URL directly and refreshes the playlist silently every 2 minutes.
-No Cloudflare proxy is used for playlist playback.
