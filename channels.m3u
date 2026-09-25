@@ -1,10 +1,10 @@
 #EXTM3U
-#EXTINF:-1 ,Satv
-https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 ,ATN News
+https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
 #EXTINF:-1 ,Gazi TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
 #EXTINF:-1 ,T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/index.m3u8
 #EXTINF:-1 ,DBC News HD
 https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
 #EXTINF:-1 ,ATN Bangla
@@ -28,7 +28,7 @@ https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
 #EXTINF:-1 ,Ekattor TV
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
 #EXTINF:-1 ,Enter TV
-https://live1.entertv.com.bd/entertv/index.fmp4.m3u8
+https://iptvlive.ahmed-bd-org.workers.dev/enter-tv-1/index.m3u8
 #EXTINF:-1 ,SRK
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 ,JamunaTV
@@ -50,7 +50,7 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 ,Dipto Tv
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 ,RAJDHANI TV HD
-https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8
+https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8
 #EXTINF:-1 ,Ananda TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,Ekushey TV
@@ -88,9 +88,9 @@ https://bold-sky-a350.tasinazad234.workers.dev/stream/starsplus/playlist.m3u8?ex
 #EXTINF:-1 ,Colors HD
 https://bold-sky-a350.tasinazad234.workers.dev/stream/colorshd/playlist.m3u8?expires=1791440269&sig=J3O3Gmhxa4tcnN84RxJXXBzrqBBg1yoO3yWGQS7eVYM
 #EXTINF:-1 ,Sony Max FHD
-https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_max_hd&e=.m3u8
-#EXTINF:-1 ,&PICTURES
-https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=andpicture_hd&e=.m3u8
+https://drk6xq0vhn.gpcdn.net/live/sony_max_sd_abr/index.m3u8
+#EXTINF:-1 ,Star Gold
+http://livetv.akr4m.com:8080/bdtv/restrem/45.m3u8
 #EXTINF:-1 ,Zee Cinema HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 ,Star Movies Select HD
@@ -99,8 +99,8 @@ https://rangdhonu-proxy.tasinazad2009.workers.dev/stream/starmovies/playlist.m3u
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 ,Sheemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
-#EXTINF:-1 ,Sony PIX
-https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sonypix_hd&e=.m3u8
+#EXTINF:-1 ,Asianet Movies
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
 #EXTINF:-1 ,24/7 Gopal Bhar
 https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 ,Mehedi Net-01626886070
@@ -120,7 +120,7 @@ https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 #EXTINF:-1 ,Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1 ,animal planet
-https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=animal_planet_hd&e=.m3u8
+https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd/index.m3u8
 #EXTINF:-1 ,Punjabi Hits (1080p)
 https://stream.ottlive.co.in/punjabihits/index.m3u8
 #EXTINF:-1 ,Zoom
