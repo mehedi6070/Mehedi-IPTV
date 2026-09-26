@@ -1,6 +1,6 @@
 package com.mehedi.iptv
 
-import android.app.Activity
+import android.app.Activity.conponentActivity
 import android.os.Bundle
 import android.view.KeyEvent
 import androidx.activity.compose.setContent
@@ -52,13 +52,17 @@ private val White = Color.White
 data class Channel(val name: String, val url: String)
 enum class Screen { LIST, PLAYER, OPTIONS }
 
-class MainActivity : Activity() {
+class MainActivity : ComponentActivity() {
     private lateinit var player: ExoPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         player = ExoPlayer.Builder(this).build()
-        setContent { MehediApp(player) }
+
+        setContent {
+            MehediApp(player)
+        }
     }
 
     override fun onDestroy() {
