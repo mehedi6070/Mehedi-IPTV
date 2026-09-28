@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.MehediIPTV" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#061127</item>
+        <item name="android:navigationBarColor">#020713</item>
+        <item name="android:colorAccent">#00B7FF</item>
+    </style>
+</resources>
